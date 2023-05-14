@@ -1,0 +1,448 @@
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul
+{
+    list-style-type: none;
+}
+
+.header
+{
+    background-image: url(./images/background.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover; 
+
+}
+.container
+{
+    
+margin:0px 100px;
+}
+.logo
+{
+    margin:20px 0px 150px;
+    width:100px;
+ 
+}
+
+.text1
+{
+    
+    max-width: 400px;
+   
+    
+}
+.text1 h1
+{
+    font-size:35px;
+}
+.squarebox
+{
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    margin:10px 0px 10px 5px;
+    background-color: red;
+
+}
+.button
+{
+    margin:15px 0px;
+    padding:15px 40px;
+    background-color: transparent;
+    font-weight: 600;
+    font: bold;
+    border: 2px solid red;
+    border-radius: 12px;
+    font-size: 15px;
+
+}
+.line{
+    line-height: 8px;
+}
+
+.line1
+{
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    display: inline-block;
+    transition-duration: 500ms;
+}
+.line2
+{
+    height: 1px;
+    width: 60px;
+    background-color: red;
+    display: inline-block;
+   
+}
+
+.line3
+{
+    height: 1px;
+    width: 100px;
+    background-color: red;
+    display: inline-block;
+    transition-duration: 500ms;
+}
+
+
+
+
+
+
+
+
+.navbar
+{
+    position: fixed;
+    background-color: #f67c92;
+    width: 300px;
+    height: 100vh;
+    border-top-left-radius: 15px ;
+    border-bottom-left-radius: 15px ;
+    right:-300px;
+    top: 0;
+    z-index: 2;
+    transition-duration: .5s;
+}
+.shownav
+{
+    border: 0px;
+    cursor: pointer;
+    
+}
+ 
+.navbar li
+{
+    margin: 50px 20px;
+    font-size: 20px ;
+    
+    
+}
+.navbar  a{
+    color:aliceblue 
+}
+.shownav
+{
+    position: fixed;
+    width: 50px;
+    right: 45px;
+    top: 35px;
+    z-index: 2;
+    background-color: transparent;
+    
+    
+}
+.menuimage
+{
+    width: 50px;
+    border-radius: 10px;
+   
+}
+
+.about
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    padding:100px 0px
+}
+.leftcol
+{
+    flex-basis:50%;
+    
+}
+.leftcol img{
+    width: 100%;
+}
+.rightcol
+{
+    flex-basis:50%;
+    
+}
+.righttext
+{
+    text-align: right;
+    margin-right: 100px;
+    display: inline-block;
+}
+
+.righttext h2
+{
+    margin:50px 0px 10px;
+    font-size: 28px;
+    font-style: italic;
+}
+.righttext h3
+{
+    color:#797979;
+    font-size: 20px;
+    font-style: italic;
+}
+.aboutdec line
+{
+    text-align: right;
+    display: inline-block;
+}
+
+
+.featurescontainer
+{
+    padding: 50px 0px;
+}
+.features
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ .item
+{
+    flex-basis: 25%;
+    text-align: center;
+} 
+.item img
+{
+    width: 100px;
+}
+.item h4
+{
+font-size: 20px;
+font-weight: 400;
+margin: 10px 0px;
+}
+.featurebtn
+{
+    margin:80px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featurebtn .line
+{
+text-align: right;
+display: inline-block;
+margin-right: 13px;
+}
+
+.coursesection
+{
+    padding: 100px 0px;
+}
+.coursecontainer
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    border: 1px solid blue;
+
+}
+.courseleft
+{
+    flex-basis: 50%;
+   
+}
+.courselefttext
+{
+    margin: 0px 100px;
+    
+}
+.courseright
+{
+    flex-basis: 50%;
+    
+}
+.courseright img
+{
+width: 100%;
+}
+
+
+.trial
+{
+    padding: 100px 0px;
+}
+.flexcontainer
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.leftbox
+{
+    flex-basis: 50%;
+   
+   
+}
+.leftbox h1
+{
+    font-size: 35px;
+}
+.lefttrial img
+{
+width: 100%;
+}
+
+.rightbox
+{
+    flex-basis: 50%;
+}
+
+.righttexttrial h1{
+    font-size: 35px;
+}
+
+
+.signup
+{
+    margin: 0px 80px;
+}
+
+
+
+
+.rightsignup img
+{
+    width: 100%;
+}
+
+.leftsignup
+{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+}
+form
+{
+    max-width: 350px;
+    margin: 30px 0;
+    
+}
+
+
+ form input
+{
+    width: 100%;
+    padding: 15px 10px;
+    margin-bottom:5px;
+    outline: none;
+    box-shadow:none ;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 12px;
+    text-align: left;
+} 
+ .logsignbuttons
+{
+width: 100%;
+
+display: flex;
+justify-content: space-between;    
+} 
+
+.logsignbtn
+{
+    flex-basis: 48%;
+    padding:    10px 0px;
+    margin: 0px;
+}
+
+/*footer */
+
+.footer
+{
+    margin: 0px 80px;
+    padding: 50px 0 30px;
+}
+hr
+{
+    width: 100%;
+    border: 0;
+    border: 1px solid red;
+    
+}
+/* .footercontainer
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+} */
+.footerleft
+{
+    flex-basis: 50%;
+    margin-top: 60px;
+   
+}
+.footerright
+{
+    flex-basis: 50%;
+   
+
+}
+.footerlinks
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.link-title h4
+{
+    color: rgb(207, 84, 84);
+    margin-bottom: 20px;
+}
+.link-title small
+{
+    font-size: 13px;
+    margin-bottom: 3px;
+    color: rgb(162, 106, 106);
+}
+.linkflex
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.social-links
+
+{
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.social-links img
+{
+    display: block;
+    width: 20px;
+    margin:0 auto 20px;
+}
+
+@media only screen and (max-width:770px)
+{
+    .header
+    {
+        background-image: none;
+    }
+}
